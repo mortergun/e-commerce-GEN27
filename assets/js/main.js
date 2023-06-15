@@ -1,5 +1,4 @@
 import cart from './components/cart.js';
-import dark__Mode from './components/darkmode.js';
 import loader from './components/loader.js';
 import products from './components/products.js';
 import showCart from './components/showCart.js';
@@ -24,6 +23,3 @@ const { db, printProducts } = products(await getProducts())
 
 /* Cart */
 cart(db, printProducts)
-
-/* Dark Mode */
-dark__Mode()
